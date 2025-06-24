@@ -2,7 +2,7 @@
 deleted: true
 title: Apuntes Clase
 created: '2025-06-24T10:35:43.841Z'
-modified: '2025-06-24T10:51:11.191Z'
+modified: '2025-06-24T11:05:02.168Z'
 ---
 
 # Apuntes Clase
@@ -25,3 +25,6 @@ modified: '2025-06-24T10:51:11.191Z'
       - Spanish
       - Extension pack for java (de Microsoft)
       - Extension Markdown
+
+
+      
