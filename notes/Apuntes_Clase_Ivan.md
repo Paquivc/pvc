@@ -1,7 +1,7 @@
 ---
 title: Apuntes_Clase_Ivan
 created: '2025-06-24T08:49:52.694Z'
-modified: '2025-06-24T11:32:40.600Z'
+modified: '2025-06-26T07:00:01.494Z'
 ---
 
 # 📘 Apuntes Clase
@@ -27,5 +27,7 @@ modified: '2025-06-24T11:32:40.600Z'
    - 🌍 **Spanish**  
    - 📦 **Extension Pack for Java** (Microsoft)
    - **Extension Markdown** 
+
    
    
+ 
