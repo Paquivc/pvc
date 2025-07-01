@@ -1,0 +1,73 @@
+<!--ejemplo_07_Tablas.html-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 5px solid rgb(47, 255, 234);
+            padding: 5px 10px;
+        }
+    </style>
+
+    <!--<table> (2) ->  tabla
+    <caption> (3) -> titulo tabla
+        <tr> (3) -> fila
+            <th> (4) -> celda cabecera "las que estan en negrigta"
+            <td> (4) -> celda
+        <thead> (3) -> fila cabecera (semantico)
+        <tbody> (3) -> fila cuerpo (sem  "")
+        <tfoot> (3) fila pie (sem)-->
+
+</head>
+
+<body>
+
+    <h2>Tabla de cursos</h2>
+    <table>
+        <caption> Curso de diseño grafico</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Horas</th>
+                <th>Plazas</th>
+                <th>Horario</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Introducción a XHTML</td>
+            <td colspan="2">20</td>
+            <td>09.00-13.00</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td rowspan="2">40</td>
+            <td>15</td>
+            <td rowspan="2">16:00-20:00</td>
+        </tr>
+        <tr>
+            <td>Usabilidad</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Ajax</td>
+            <td>60</td>
+            <td>20</td>
+            <td>08:30-12:30</td>
+        </tr>
+    </table>
+
+    <!--Fusiones o uniones del celda para quitarle peso a la tabla
+    Fusion vertical raw span "atributo"(por defecto esta a 1)
+    Fusion orizontal collspan "atributo" -->
+
+
+</body>
+
+</html>
