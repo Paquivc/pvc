@@ -1,0 +1,76 @@
+<!-- ejemplo_08_formularios.html -->
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+ </head>
+ <body>
+    <!-- Al mandar el primer fieldset, sale esto con GET
+    ejemplo_08_formularios.html?usuario=usu1&clave=1234&fechanac=2025-07-02#-->
+    <form action="#" method="post">
+        <fieldset>
+            <!-- Emmet: label+input:text 
+             for->id y el name->variable -->
+             <label for="usuario">Usuario:</label>
+             <input type="text" name="usuario" id="usuario"><br>
+             <label for="clave">Contraseña:</label>
+             <input type="password" name="clave" id="clave"><br>
+             <label for="fechanac">Nacimiento:</label>
+             <input type="date" name="fechanac" id="fechanac"><br>
+        </fieldset>
+        <fieldset>
+            <label for="codpostal">Código Postal</label>
+            <input type="number" name="codpostal" id="codpostal"min="1000 max="52001"><br>
+            <label for="correo">Correo</label>
+            <input type="email" name="correo" id="correo"><br>
+            <input type="tel" name="telefono" id="telefono"><br>
+
+        </fieldset>
+        <fieldset>
+         <label for="comentarios"></label>
+         <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea><br>
+         ><label for="provincia">Provincia:</label><select name="provincia" id="provincia">
+            <option disabled selected>Elige Provincia</option>
+            <option value="almeria">Almería</option>
+            <option value="cadiz">Cádiz</option>
+            <option value="badajoz">Badajoz</option>
+            <option value="granada">Granada</option>  
+<optiongroup label="Andalucía">
+                <option value="malaga">Málaga</option>
+                <option value="sevilla">Sevilla</option>
+            </optgroup>
+            <optgroup label="Extremadura">
+                <option value="caceres">Cáceres</option>
+                <option value="badajoz">Badajoz</option>
+            </optgroup>
+         
+         </select> disabled="disabled"></select>
+         <fieldset>
+            <p>Selección Género</p>
+           <input type="radio" name="genero" id="masculino" value="masculino">
+           <label for="masculino">Hombre</label>
+           <input type="radio" name="genero" id="mujer" value="mujer">
+           <label for="mujer">Mujer</label><br>
+<p>Intereses</p>
+<input type="checkbox" name="intereses[]" id="deporte" value="deporte">
+<label for="deporte">Deporte</label>
+<input type="checkbox" name="intereses[]" id="informatica" value="informatica">
+<label for="informatica">Informática</label>
+<input type="checkbox" name="intereses[]" id="musica" value="musica">
+<label for="musica">Música</label>
+         </fieldset>
+<fieldset>
+   <label for="color">Color Usuario:</label>
+   <input type="color" name="color" id="color" value="color"><br>
+</fieldset>
+
+<input="hidden" name="oculto" value="valor oculto"><br>
+<fieldset> 
+        </fieldset>        <hr>
+        <input type="submit" value="Enviar"><br>
+        <input type="reset" value="Borrar Datos"><br>
+    </form>
+ </body>
+ </html>
